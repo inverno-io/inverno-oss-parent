@@ -25,7 +25,8 @@
 	<packaging>pom</packaging>
 
 	<name>oss-parent</name>
-	<description>Winter framework OSS parent pom</description>
+	<description>The Winter framework OSS parent pom</description>
+	
 	<inceptionYear>2020</inceptionYear>
 	<organization>
 		<name>Winter Framework</name>
