@@ -93,6 +93,7 @@
 		<version.mockito-core>3.8.0</version.mockito-core> <!-- 2.23.4 -->
 
 		<!-- Maven plugins -->
+		<version.exec-maven-plugin>3.0.0</version.exec-maven-plugin>
 		<version.javacc-maven-plugin>3.0.2</version.javacc-maven-plugin>
 		<version.maven-antrun-plugin>3.0.0</version.maven-antrun-plugin>
 		<version.maven-clean-plugin>3.1.0</version.maven-clean-plugin>
@@ -270,6 +271,11 @@
 	<build>
 		<pluginManagement>
 			<plugins>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>exec-maven-plugin</artifactId>
+					<version>${version.exec-maven-plugin}</version>
+				</plugin>
 				<plugin>
 					<groupId>org.javacc.plugin</groupId>
 					<artifactId>javacc-maven-plugin</artifactId>
