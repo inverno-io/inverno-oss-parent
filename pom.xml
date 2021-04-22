@@ -26,7 +26,6 @@
 
 	<name>oss-parent</name>
 	<description>The Winter framework OSS parent pom</description>
-	
 	<inceptionYear>2020</inceptionYear>
 	<organization>
 		<name>Winter Framework</name>
@@ -76,21 +75,27 @@
 		<maven.compiler.source>9</maven.compiler.source>
 		<maven.compiler.target>9</maven.compiler.target>
 		
-		<version.asm>9.1</version.asm> <!-- 8.0.1 -->
-		<version.commons.lang>3.12.0</version.commons.lang> <!-- 3.11 -->
+		<version.asm>9.1</version.asm>
+		<version.commons.compress>1.20</version.commons.compress>
+		<version.commons.lang>3.12.0</version.commons.lang>
 		<version.commons.text>1.9</version.commons.text>
-		<version.jackson>2.12.1</version.jackson> <!-- 2.12.0 -->
-		<version.javacc>7.0.10</version.javacc> <!-- 7.0.9 -->
-		<version.lettuce>6.0.2.RELEASE</version.lettuce> <!-- 6.0.0.RELEASE -->
+		<version.jackson>2.12.1</version.jackson>
+		<version.javacc>7.0.10</version.javacc>
+		<version.jib>0.18.0</version.jib>
+		<version.lettuce>6.0.2.RELEASE</version.lettuce>
 		<version.log4j>2.14.0</version.log4j>
-		<version.netty>4.1.59.Final</version.netty> <!-- 4.1.56.Final -->
-		<version.netty.boringssl>2.0.36.Final</version.netty.boringssl> <!-- 2.0.34.Final -->
-		<version.projectreactor>3.4.3</version.projectreactor> <!-- 3.4.1 -->
+		<version.maven>${maven.version}</version.maven>
+		<version.maven.plugin-tools>3.6.0</version.maven.plugin-tools>
+		<version.maven.shared.common-artifact-filters>3.1.0</version.maven.shared.common-artifact-filters>
+		<version.netty>4.1.59.Final</version.netty>
+		<version.netty.boringssl>2.0.36.Final</version.netty.boringssl>
+		<version.projectreactor>3.4.3</version.projectreactor>
+		<version.swagger>3.46.0</version.swagger>
 
 		<!-- Test -->
-		<version.junit.jupiter>5.7.1</version.junit.jupiter> <!-- 5.5.1 -->
-		<version.junit.platform>1.7.1</version.junit.platform> <!-- 1.7.1 -->
-		<version.mockito-core>3.8.0</version.mockito-core> <!-- 2.23.4 -->
+		<version.junit.jupiter>5.7.1</version.junit.jupiter>
+		<version.junit.platform>1.7.1</version.junit.platform>
+		<version.mockito-core>3.8.0</version.mockito-core>
 
 		<!-- Maven plugins -->
 		<version.exec-maven-plugin>3.0.0</version.exec-maven-plugin>
@@ -104,6 +109,7 @@
 		<version.maven-install-plugin>2.5.2</version.maven-install-plugin>
 		<version.maven-jar-plugin>3.2.0</version.maven-jar-plugin>
 		<version.maven-javadoc-plugin>3.2.0</version.maven-javadoc-plugin>
+		<version.maven-plugin-plugin>3.6.0</version.maven-plugin-plugin>
 		<version.maven-resources-plugin>3.2.0</version.maven-resources-plugin>
 		<version.maven-source-plugin>3.2.1</version.maven-source-plugin>
 		<version.maven-surefire-plugin>2.22.2</version.maven-surefire-plugin>
@@ -117,6 +123,12 @@
 				<artifactId>asm</artifactId>
 				<version>${version.asm}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-compress</artifactId>
+				<version>${version.commons.compress}</version>
+			</dependency>
 			<dependency>
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-lang3</artifactId>
@@ -127,21 +139,31 @@
 				<artifactId>commons-text</artifactId>
 				<version>${version.commons.text}</version>
 			</dependency>
+		
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
 				<artifactId>jackson-databind</artifactId>
 				<version>${version.jackson}</version>
 			</dependency>
+			
 			<dependency>
 				<groupId>net.java.dev.javacc</groupId>
 				<artifactId>javacc</artifactId>
 				<version>${version.javacc}</version>
 			</dependency>
+			
+			<dependency>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-core</artifactId>
+				<version>${version.jib}</version>
+			</dependency>
+			
 			<dependency>
 				<groupId>io.lettuce</groupId>
 				<artifactId>lettuce-core</artifactId>
 				<version>${version.lettuce}</version>
 			</dependency>
+			
 			<dependency>
 				<groupId>org.apache.logging.log4j</groupId>
 				<artifactId>log4j-api</artifactId>
@@ -153,6 +175,43 @@
 				<version>${version.log4j}</version>
 				<scope>runtime</scope>
 			</dependency>
+			
+			<dependency>
+				<groupId>org.apache.maven</groupId>
+				<artifactId>maven-artifact</artifactId>
+				<version>${version.maven}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven</groupId>
+				<artifactId>maven-compat</artifactId>
+				<version>${maven.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven</groupId>
+				<artifactId>maven-core</artifactId>
+				<version>${version.maven}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven</groupId>
+				<artifactId>maven-plugin-api</artifactId>
+				<version>${version.maven}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.plugin-tools</groupId>
+				<artifactId>maven-plugin-annotations</artifactId>
+				<version>${version.maven.plugin-tools}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.shared</groupId>
+				<artifactId>maven-common-artifact-filters</artifactId>
+				<version>${version.maven.shared.common-artifact-filters}</version>				
+			</dependency>
+		
 			<dependency>
 				<groupId>io.netty</groupId>
 				<artifactId>netty-all</artifactId>
@@ -222,12 +281,19 @@
 				<artifactId>netty-tcnative-boringssl-static</artifactId>
 				<version>${version.netty.boringssl}</version>
 			</dependency>
+		
 			<dependency>
 				<groupId>io.projectreactor</groupId>
 				<artifactId>reactor-core</artifactId>
 				<version>${version.projectreactor}</version>
 			</dependency>
-
+			
+			<dependency>
+				<groupId>org.webjars</groupId>
+				<artifactId>swagger-ui</artifactId>
+				<version>${version.swagger}</version>
+			</dependency>
+			
 			<!-- Test -->
 			<dependency>
 				<groupId>org.junit.jupiter</groupId>
@@ -247,6 +313,7 @@
 				<version>${version.junit.jupiter}</version>
 				<scope>test</scope>
 			</dependency>
+			
 			<dependency>
 				<groupId>org.junit.platform</groupId>
 				<artifactId>junit-platform-launcher</artifactId>
@@ -259,6 +326,7 @@
 				<version>${version.junit.platform}</version>
 				<scope>test</scope>
 			</dependency>
+			
 			<dependency>
 				<groupId>org.mockito</groupId>
 				<artifactId>mockito-core</artifactId>
@@ -352,6 +420,11 @@
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-plugin-plugin</artifactId>
+					<version>${version.maven-plugin-plugin}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-resources-plugin</artifactId>
 					<version>${version.maven-resources-plugin}</version>
 				</plugin>
@@ -383,7 +456,6 @@
 			<build>
 				<plugins>
 					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-antrun-plugin</artifactId>
 						<executions>
 							<execution>
@@ -475,7 +547,6 @@
 						</configuration>
 					</plugin>
 					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-antrun-plugin</artifactId>
 						<executions>
 							<execution>
