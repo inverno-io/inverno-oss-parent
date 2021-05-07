@@ -185,7 +185,7 @@
 			<dependency>
 				<groupId>org.apache.maven</groupId>
 				<artifactId>maven-compat</artifactId>
-				<version>${maven.version}</version>
+				<version>${version.maven}</version>
 				<scope>test</scope>
 			</dependency>
 			<dependency>
@@ -458,6 +458,19 @@
 					<plugin>
 						<artifactId>maven-antrun-plugin</artifactId>
 						<executions>
+							<execution>
+								<id>generate-readme</id>
+								<phase>prepare-package</phase>
+								<goals>
+									<goal>run</goal>
+								</goals>
+								<inherited>false</inherited>
+								<configuration>
+									<target>
+										<xslt in="${project.basedir}/pom.xml" out="${project.basedir}/README.md" style="${project.basedir}/src/main/xsl/README.xsl" force="true" />
+									</target>
+								</configuration>
+							</execution>
 							<execution>
 								<id>pom-cleanup</id>
 								<phase>prepare-package</phase>
