@@ -79,18 +79,18 @@
 		<version.commons.compress>1.20</version.commons.compress>
 		<version.commons.lang>3.12.0</version.commons.lang>
 		<version.commons.text>1.9</version.commons.text>
-		<version.jackson>2.12.1</version.jackson>
+		<version.jackson>2.12.3</version.jackson>
 		<version.javacc>7.0.10</version.javacc>
 		<version.jib>0.18.0</version.jib>
-		<version.lettuce>6.0.2.RELEASE</version.lettuce>
-		<version.log4j>2.14.0</version.log4j>
+		<version.lettuce>6.1.1.RELEASE</version.lettuce>
+		<version.log4j>2.14.1</version.log4j>
 		<version.maven>${maven.version}</version.maven>
 		<version.maven.plugin-tools>3.6.0</version.maven.plugin-tools>
 		<version.maven.shared.common-artifact-filters>3.1.0</version.maven.shared.common-artifact-filters>
-		<version.netty>4.1.59.Final</version.netty>
-		<version.netty.boringssl>2.0.36.Final</version.netty.boringssl>
-		<version.projectreactor>3.4.3</version.projectreactor>
-		<version.swagger>3.46.0</version.swagger>
+		<version.netty>4.1.63.Final</version.netty>
+		<version.netty.boringssl>2.0.39.Final</version.netty.boringssl>
+		<version.projectreactor>3.4.6</version.projectreactor>
+		<version.swagger>3.48.0</version.swagger>
 
 		<!-- Test -->
 		<version.junit.jupiter>5.7.1</version.junit.jupiter>
@@ -99,17 +99,17 @@
 
 		<!-- Maven plugins -->
 		<version.exec-maven-plugin>3.0.0</version.exec-maven-plugin>
-		<version.javacc-maven-plugin>3.0.2</version.javacc-maven-plugin>
+		<version.javacc-maven-plugin>3.0.3</version.javacc-maven-plugin>
 		<version.maven-antrun-plugin>3.0.0</version.maven-antrun-plugin>
 		<version.maven-clean-plugin>3.1.0</version.maven-clean-plugin>
 		<version.maven-compiler-plugin>3.8.1</version.maven-compiler-plugin>
 		<version.maven-dependency-plugin>3.1.2</version.maven-dependency-plugin>
 		<version.maven-deploy-plugin>2.8.2</version.maven-deploy-plugin>
-		<version.maven-gpg-plugin>1.6</version.maven-gpg-plugin>
+		<version.maven-gpg-plugin>3.0.1</version.maven-gpg-plugin>
 		<version.maven-install-plugin>2.5.2</version.maven-install-plugin>
 		<version.maven-jar-plugin>3.2.0</version.maven-jar-plugin>
 		<version.maven-javadoc-plugin>3.2.0</version.maven-javadoc-plugin>
-		<version.maven-plugin-plugin>3.6.0</version.maven-plugin-plugin>
+		<version.maven-plugin-plugin>3.6.1</version.maven-plugin-plugin>
 		<version.maven-resources-plugin>3.2.0</version.maven-resources-plugin>
 		<version.maven-source-plugin>3.2.1</version.maven-source-plugin>
 		<version.maven-surefire-plugin>2.22.2</version.maven-surefire-plugin>
@@ -508,6 +508,86 @@
 							<execution>
 								<id>pom-restore</id>
 								<phase>install</phase>
+								<goals>
+									<goal>run</goal>
+								</goals>
+								<inherited>false</inherited>
+								<configuration>
+									<target>
+										<property name="sourceFile" value="pom.xml" />
+										<move file="${sourceFile}.old" tofile="${sourceFile}" />
+									</target>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>io.winterframework.prerelease</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-gpg-plugin</artifactId>
+						<inherited>false</inherited>
+						<executions>
+							<execution>
+								<id>sign-artifacts</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>sign</goal>
+								</goals>
+								<configuration>
+									<gpgArguments>
+										<arg>--pinentry-mode</arg>
+										<arg>loopback</arg>
+									</gpgArguments>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
+						<artifactId>maven-antrun-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>pom-cleanup</id>
+								<phase>prepare-package</phase>
+								<goals>
+									<goal>run</goal>
+								</goals>
+								<inherited>false</inherited>
+								<configuration>
+									<target>
+										<property name="sourceFile" value="pom.xml" />
+										<xslt in="${sourceFile}" out="${sourceFile}.new"
+											force="true">
+											<style>
+												<string><![CDATA[
+<xsl:stylesheet version="2.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:m="http://maven.apache.org/POM/4.0.0"
+	exclude-result-prefixes="m">
+	<xsl:template match="node()|@*">
+		<xsl:copy>
+			<xsl:apply-templates select="node()|@*" />
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="m:profiles|m:distributionManagement">
+	</xsl:template>
+</xsl:stylesheet>
+				]]>
+												</string>
+											</style>
+										</xslt>
+										<move file="${sourceFile}" tofile="${sourceFile}.old" />
+										<move file="${sourceFile}.new" tofile="${sourceFile}" />
+									</target>
+								</configuration>
+							</execution>
+							<execution>
+								<id>pom-restore</id>
+								<phase>deploy</phase>
 								<goals>
 									<goal>run</goal>
 								</goals>
