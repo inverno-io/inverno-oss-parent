@@ -15,7 +15,7 @@ The Winter OSS parent POM provides OSS dependencies and plugin management to Win
     <tr>
         <td>com.fasterxml.jackson.core</td>
         <td>jackson-databind</td>
-        <td>2.12.1</td>
+        <td>2.12.3</td>
     </tr>
     <tr>
         <td>com.google.cloud.tools</td>
@@ -25,77 +25,77 @@ The Winter OSS parent POM provides OSS dependencies and plugin management to Win
     <tr>
         <td>io.lettuce</td>
         <td>lettuce-core</td>
-        <td>6.0.2.RELEASE</td>
+        <td>6.1.1.RELEASE</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-all</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-buffer</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-codec-http2</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-common</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-resolver</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-tcnative-boringssl-static</td>
-        <td>2.0.36.Final</td>
+        <td>2.0.39.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-kqueue</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-kqueue</td>
-        <td>4.1.59.Final</td>
+        <td>4.1.63.Final</td>
     </tr>
     <tr>
         <td>io.projectreactor</td>
         <td>reactor-core</td>
-        <td>3.4.3</td>
+        <td>3.4.6</td>
     </tr>
     <tr>
         <td>net.java.dev.javacc</td>
@@ -120,12 +120,12 @@ The Winter OSS parent POM provides OSS dependencies and plugin management to Win
     <tr>
         <td>org.apache.logging.log4j</td>
         <td>log4j-api</td>
-        <td>2.14.0</td>
+        <td>2.14.1</td>
     </tr>
     <tr>
         <td>org.apache.logging.log4j</td>
         <td>log4j-core</td>
-        <td>2.14.0</td>
+        <td>2.14.1</td>
     </tr>
     <tr>
         <td>org.apache.maven</td>
@@ -195,7 +195,7 @@ The Winter OSS parent POM provides OSS dependencies and plugin management to Win
     <tr>
         <td>org.webjars</td>
         <td>swagger-ui</td>
-        <td>3.46.0</td>
+        <td>3.48.0</td>
     </tr>
 </table>
 
@@ -235,7 +235,7 @@ The Winter OSS parent POM provides OSS dependencies and plugin management to Win
     <tr>
         <td>org.apache.maven.plugins</td>
         <td>maven-gpg-plugin</td>
-        <td>1.6</td>
+        <td>3.0.1</td>
     </tr>
     <tr>
         <td>org.apache.maven.plugins</td>
@@ -255,7 +255,7 @@ The Winter OSS parent POM provides OSS dependencies and plugin management to Win
     <tr>
         <td>org.apache.maven.plugins</td>
         <td>maven-plugin-plugin</td>
-        <td>3.6.0</td>
+        <td>3.6.1</td>
     </tr>
     <tr>
         <td>org.apache.maven.plugins</td>
@@ -280,7 +280,7 @@ The Winter OSS parent POM provides OSS dependencies and plugin management to Win
     <tr>
         <td>org.javacc.plugin</td>
         <td>javacc-maven-plugin</td>
-        <td>3.0.2</td>
+        <td>3.0.3</td>
     </tr>
     <tr>
         <td>org.sonatype.plugins</td>
