@@ -24,49 +24,51 @@ The Winter OSS parent POM provides OSS dependencies and plugin management to Win
 <xsl:template match="pom:dependencies">
 ## Dependencies
 
-<table style="margin: auto;">
-	<tr>
-		<th>GroupId</th>
-		<th>ArtifactId</th>
-		<th>Version</th>
-	</tr>
+<xsl:element name="table" namespace="" >
+	<xsl:attribute name="style">margin: auto;</xsl:attribute>
+	<xsl:element name="tr" namespace="" >
+		<xsl:element name="th" namespace="">GroupId</xsl:element>
+		<xsl:element name="th" namespace="">ArtifactId</xsl:element>
+		<xsl:element name="th" namespace="">Version</xsl:element>
+	</xsl:element>
 	<xsl:apply-templates select="pom:dependency">
 		<xsl:sort select="pom:groupId"/>
 		<xsl:sort select="pom:artifactId"/>
 	</xsl:apply-templates>
-</table>
+</xsl:element>
 </xsl:template>
 
 <xsl:template match="pom:dependency">
-<tr>
-	<td><xsl:value-of select="pom:groupId"/></td>
-	<td><xsl:value-of select="pom:artifactId"/></td>
-	<td><xsl:call-template name="getVersion"><xsl:with-param name="versionTag" select="pom:version"/></xsl:call-template></td>
-</tr>
+<xsl:element name="tr" namespace="" >
+	<xsl:element name="td" namespace=""><xsl:value-of select="pom:groupId"/></xsl:element>
+	<xsl:element name="td" namespace=""><xsl:value-of select="pom:artifactId"/></xsl:element>
+	<xsl:element name="td" namespace=""><xsl:call-template name="getVersion"><xsl:with-param name="versionTag" select="pom:version"/></xsl:call-template></xsl:element>
+</xsl:element>
 </xsl:template>
 
 <xsl:template match="pom:plugins">
 ## Maven Plugins
 
-<table style="margin: auto;">
-	<tr>
-		<th>GroupId</th>
-		<th>ArtifactId</th>
-		<th>Version</th>
-	</tr>
+<xsl:element name="table" namespace="" >
+	<xsl:attribute name="style">margin: auto;</xsl:attribute>
+	<xsl:element name="tr" namespace="" >
+		<xsl:element name="th" namespace="">GroupId</xsl:element>
+		<xsl:element name="th" namespace="">ArtifactId</xsl:element>
+		<xsl:element name="th" namespace="">Version</xsl:element>
+	</xsl:element>
 	<xsl:apply-templates select="pom:plugin">
 		<xsl:sort select="pom:groupId"/>
 		<xsl:sort select="pom:artifactId"/>
 	</xsl:apply-templates>
-</table>
+</xsl:element>
 </xsl:template>
 
 <xsl:template match="pom:plugin">
-<tr>
-	<td><xsl:value-of select="pom:groupId"/></td>
-	<td><xsl:value-of select="pom:artifactId"/></td>
-	<td><xsl:call-template name="getVersion"><xsl:with-param name="versionTag" select="pom:version"/></xsl:call-template></td>
-</tr>
+<xsl:element name="tr" namespace="" >
+	<xsl:element name="td" namespace=""><xsl:value-of select="pom:groupId"/></xsl:element>
+	<xsl:element name="td" namespace=""><xsl:value-of select="pom:artifactId"/></xsl:element>
+	<xsl:element name="td" namespace=""><xsl:call-template name="getVersion"><xsl:with-param name="versionTag" select="pom:version"/></xsl:call-template></xsl:element>
+</xsl:element>
 </xsl:template>
 
 <xsl:template name="getVersion">

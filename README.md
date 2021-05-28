@@ -6,7 +6,7 @@ The Winter OSS parent POM provides OSS dependencies and plugin management to Win
 
 ## Dependencies
 
-<table style="margin: auto;" xmlns:pom="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xslFormatting="urn:xslFormatting">
+<table style="margin: auto;">
     <tr>
         <th>GroupId</th>
         <th>ArtifactId</th>
@@ -201,7 +201,7 @@ The Winter OSS parent POM provides OSS dependencies and plugin management to Win
 
 ## Maven Plugins
 
-<table style="margin: auto;" xmlns:pom="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xslFormatting="urn:xslFormatting">
+<table style="margin: auto;">
     <tr>
         <th>GroupId</th>
         <th>ArtifactId</th>
