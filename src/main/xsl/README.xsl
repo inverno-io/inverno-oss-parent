@@ -10,9 +10,9 @@
 <xsl:output indent="yes" omit-xml-declaration="yes"/>
 
 <xsl:template match="/">
-# Winter OSS Parent
+# Inverno OSS Parent
 
-The Winter OSS parent POM provides OSS dependencies and plugin management to Winter components and applications.
+The Inverno OSS parent POM provides OSS dependencies and plugin management to Inverno components and applications.
 
 <xsl:apply-templates select="/pom:project/pom:dependencyManagement/pom:dependencies"/>
 <xsl:text>
