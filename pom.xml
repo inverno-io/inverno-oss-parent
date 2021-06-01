@@ -21,7 +21,7 @@
 
 	<groupId>io.inverno</groupId>
 	<artifactId>inverno-oss-parent</artifactId>
-	<version>2</version>
+	<version>3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>inverno-parent</name>
