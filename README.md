@@ -214,6 +214,11 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     </tr>
     <tr>
         <td>org.apache.maven.plugins</td>
+        <td>maven-assembly-plugin</td>
+        <td>3.3.0</td>
+    </tr>
+    <tr>
+        <td>org.apache.maven.plugins</td>
         <td>maven-clean-plugin</td>
         <td>3.1.0</td>
     </tr>
