@@ -176,6 +176,16 @@
 				<version>${version.log4j}</version>
 				<scope>runtime</scope>
 			</dependency>
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-jul</artifactId>
+				<version>${version.log4j}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-layout-template-json</artifactId>
+				<version>${version.log4j}</version>
+			</dependency>
 			
 			<dependency>
 				<groupId>org.apache.maven</groupId>

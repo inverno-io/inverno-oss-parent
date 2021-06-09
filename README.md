@@ -128,6 +128,16 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
         <td>2.14.1</td>
     </tr>
     <tr>
+        <td>org.apache.logging.log4j</td>
+        <td>log4j-jul</td>
+        <td>2.14.1</td>
+    </tr>
+    <tr>
+        <td>org.apache.logging.log4j</td>
+        <td>log4j-layout-template-json</td>
+        <td>2.14.1</td>
+    </tr>
+    <tr>
         <td>org.apache.maven</td>
         <td>maven-artifact</td>
         <td>${maven.version}</td>
