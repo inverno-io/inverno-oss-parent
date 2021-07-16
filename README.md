@@ -30,27 +30,27 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.netty</td>
         <td>netty-all</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-buffer</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-codec-http2</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-common</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-resolver</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
@@ -60,37 +60,52 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.netty</td>
         <td>netty-transport</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-kqueue</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-kqueue</td>
-        <td>4.1.63.Final</td>
+        <td>4.1.66.Final</td>
+    </tr>
+    <tr>
+        <td>io.netty.incubator</td>
+        <td>netty-incubator-transport-native-io_uring</td>
+        <td>0.0.8.Final</td>
+    </tr>
+    <tr>
+        <td>io.netty.incubator</td>
+        <td>netty-incubator-transport-native-io_uring</td>
+        <td>0.0.8.Final</td>
+    </tr>
+    <tr>
+        <td>io.netty.incubator</td>
+        <td>netty-incubator-transport-native-io_uring</td>
+        <td>0.0.8.Final</td>
     </tr>
     <tr>
         <td>io.projectreactor</td>

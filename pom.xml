@@ -74,6 +74,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>9</maven.compiler.source>
 		<maven.compiler.target>9</maven.compiler.target>
+		<maven.compiler.release>9</maven.compiler.release>
 		
 		<version.asm>9.1</version.asm>
 		<version.commons.compress>1.20</version.commons.compress>
@@ -87,10 +88,12 @@
 		<version.maven>${maven.version}</version.maven>
 		<version.maven.plugin-tools>3.6.0</version.maven.plugin-tools>
 		<version.maven.shared.common-artifact-filters>3.1.0</version.maven.shared.common-artifact-filters>
-		<version.netty>4.1.63.Final</version.netty>
+		<version.netty>4.1.66.Final</version.netty>
+		<version.netty.io_uring>0.0.8.Final</version.netty.io_uring>
 		<version.netty.boringssl>2.0.39.Final</version.netty.boringssl>
 		<version.projectreactor>3.4.6</version.projectreactor>
 		<version.swagger>3.48.0</version.swagger>
+		<version.vertx>4.1.1</version.vertx>
 
 		<!-- Test -->
 		<version.junit.jupiter>5.7.1</version.junit.jupiter>
@@ -288,6 +291,23 @@
 				<classifier>osx-x86_64</classifier>
 			</dependency>
 			<dependency>
+				<groupId>io.netty.incubator</groupId>
+				<artifactId>netty-incubator-transport-native-io_uring</artifactId>
+				<version>${version.netty.io_uring}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.netty.incubator</groupId>
+				<artifactId>netty-incubator-transport-native-io_uring</artifactId>
+				<version>${version.netty.io_uring}</version>
+				<classifier>linux-x86_64</classifier>
+			</dependency>
+			<dependency>
+				<groupId>io.netty.incubator</groupId>
+				<artifactId>netty-incubator-transport-native-io_uring</artifactId>
+				<version>${version.netty.io_uring}</version>
+				<classifier>linux-aarch64</classifier>
+			</dependency>
+			<dependency>
 				<groupId>io.netty</groupId>
 				<artifactId>netty-tcnative-boringssl-static</artifactId>
 				<version>${version.netty.boringssl}</version>
@@ -303,6 +323,12 @@
 				<groupId>org.webjars</groupId>
 				<artifactId>swagger-ui</artifactId>
 				<version>${version.swagger}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>io.vertx</groupId>
+				<artifactId>vertx-core</artifactId>
+				<version>${version.vertx}</version>
 			</dependency>
 			
 			<!-- Test -->
@@ -386,9 +412,6 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>${version.maven-compiler-plugin}</version>
-					<configuration>
-						<release>9</release>
-					</configuration>
 					<dependencies>
 						<dependency>
 							<groupId>org.ow2.asm</groupId>
