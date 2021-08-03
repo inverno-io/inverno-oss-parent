@@ -113,6 +113,11 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
         <td>3.4.6</td>
     </tr>
     <tr>
+        <td>io.vertx</td>
+        <td>vertx-core</td>
+        <td>4.1.1</td>
+    </tr>
+    <tr>
         <td>net.java.dev.javacc</td>
         <td>javacc</td>
         <td>7.0.10</td>
