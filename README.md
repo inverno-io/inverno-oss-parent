@@ -13,9 +13,29 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
         <th>Version</th>
     </tr>
     <tr>
+        <td>com.aayushatharva.brotli4j</td>
+        <td>brotli4j</td>
+        <td>1.4.2</td>
+    </tr>
+    <tr>
+        <td>com.aayushatharva.brotli4j</td>
+        <td>native-linux-x86_64</td>
+        <td>1.4.2</td>
+    </tr>
+    <tr>
+        <td>com.aayushatharva.brotli4j</td>
+        <td>native-osx-x86_64</td>
+        <td>1.4.2</td>
+    </tr>
+    <tr>
+        <td>com.aayushatharva.brotli4j</td>
+        <td>native-windows-x86_64</td>
+        <td>1.4.2</td>
+    </tr>
+    <tr>
         <td>com.fasterxml.jackson.core</td>
         <td>jackson-databind</td>
-        <td>2.12.3</td>
+        <td>2.12.4</td>
     </tr>
     <tr>
         <td>com.google.cloud.tools</td>
@@ -25,7 +45,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.lettuce</td>
         <td>lettuce-core</td>
-        <td>6.1.1.RELEASE</td>
+        <td>6.1.4.RELEASE</td>
     </tr>
     <tr>
         <td>io.netty</td>
@@ -110,12 +130,37 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.projectreactor</td>
         <td>reactor-core</td>
-        <td>3.4.6</td>
+        <td>3.4.9</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-core</td>
-        <td>4.1.1</td>
+        <td>4.1.2</td>
+    </tr>
+    <tr>
+        <td>io.vertx</td>
+        <td>vertx-db2-client</td>
+        <td>4.1.2</td>
+    </tr>
+    <tr>
+        <td>io.vertx</td>
+        <td>vertx-mssql-client</td>
+        <td>4.1.2</td>
+    </tr>
+    <tr>
+        <td>io.vertx</td>
+        <td>vertx-mysql-client</td>
+        <td>4.1.2</td>
+    </tr>
+    <tr>
+        <td>io.vertx</td>
+        <td>vertx-pg-client</td>
+        <td>4.1.2</td>
+    </tr>
+    <tr>
+        <td>io.vertx</td>
+        <td>vertx-sql-client</td>
+        <td>4.1.2</td>
     </tr>
     <tr>
         <td>net.java.dev.javacc</td>
