@@ -40,7 +40,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>com.google.cloud.tools</td>
         <td>jib-core</td>
-        <td>0.18.0</td>
+        <td>0.19.0</td>
     </tr>
     <tr>
         <td>io.lettuce</td>
@@ -75,7 +75,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.netty</td>
         <td>netty-tcnative-boringssl-static</td>
-        <td>2.0.39.Final</td>
+        <td>2.0.40.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
@@ -235,42 +235,42 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.junit.jupiter</td>
         <td>junit-jupiter-api</td>
-        <td>5.7.1</td>
+        <td>5.7.2</td>
     </tr>
     <tr>
         <td>org.junit.jupiter</td>
         <td>junit-jupiter-engine</td>
-        <td>5.7.1</td>
+        <td>5.7.2</td>
     </tr>
     <tr>
         <td>org.junit.jupiter</td>
         <td>junit-jupiter-params</td>
-        <td>5.7.1</td>
+        <td>5.7.2</td>
     </tr>
     <tr>
         <td>org.junit.platform</td>
         <td>junit-platform-commons</td>
-        <td>1.7.1</td>
+        <td>1.7.2</td>
     </tr>
     <tr>
         <td>org.junit.platform</td>
         <td>junit-platform-launcher</td>
-        <td>1.7.1</td>
+        <td>1.7.2</td>
     </tr>
     <tr>
         <td>org.mockito</td>
         <td>mockito-core</td>
-        <td>3.8.0</td>
+        <td>3.11.2</td>
     </tr>
     <tr>
         <td>org.ow2.asm</td>
         <td>asm</td>
-        <td>9.1</td>
+        <td>9.2</td>
     </tr>
     <tr>
         <td>org.webjars</td>
         <td>swagger-ui</td>
-        <td>3.48.0</td>
+        <td>3.51.2</td>
     </tr>
 </table>
 
@@ -305,7 +305,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.apache.maven.plugins</td>
         <td>maven-dependency-plugin</td>
-        <td>3.1.2</td>
+        <td>3.2.0</td>
     </tr>
     <tr>
         <td>org.apache.maven.plugins</td>
@@ -330,7 +330,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.apache.maven.plugins</td>
         <td>maven-javadoc-plugin</td>
-        <td>3.2.0</td>
+        <td>3.3.0</td>
     </tr>
     <tr>
         <td>org.apache.maven.plugins</td>

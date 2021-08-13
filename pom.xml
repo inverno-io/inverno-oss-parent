@@ -76,14 +76,14 @@
 		<maven.compiler.target>9</maven.compiler.target>
 		<maven.compiler.release>9</maven.compiler.release>
 		
-		<version.asm>9.1</version.asm>
+		<version.asm>9.2</version.asm>
 		<version.brotli>1.4.2</version.brotli>
 		<version.commons.compress>1.20</version.commons.compress>
 		<version.commons.lang>3.12.0</version.commons.lang>
 		<version.commons.text>1.9</version.commons.text>
 		<version.jackson>2.12.4</version.jackson>
 		<version.javacc>7.0.10</version.javacc>
-		<version.jib>0.18.0</version.jib>
+		<version.jib>0.19.0</version.jib>
 		<version.lettuce>6.1.4.RELEASE</version.lettuce>
 		<version.log4j>2.14.1</version.log4j>
 		<version.maven>${maven.version}</version.maven>
@@ -91,15 +91,15 @@
 		<version.maven.shared.common-artifact-filters>3.1.0</version.maven.shared.common-artifact-filters>
 		<version.netty>4.1.66.Final</version.netty>
 		<version.netty.io_uring>0.0.8.Final</version.netty.io_uring>
-		<version.netty.boringssl>2.0.39.Final</version.netty.boringssl>
+		<version.netty.boringssl>2.0.40.Final</version.netty.boringssl>
 		<version.projectreactor>3.4.9</version.projectreactor>
-		<version.swagger>3.48.0</version.swagger>
+		<version.swagger>3.51.2</version.swagger>
 		<version.vertx>4.1.2</version.vertx>
 
 		<!-- Test -->
-		<version.junit.jupiter>5.7.1</version.junit.jupiter>
-		<version.junit.platform>1.7.1</version.junit.platform>
-		<version.mockito-core>3.8.0</version.mockito-core>
+		<version.junit.jupiter>5.7.2</version.junit.jupiter>
+		<version.junit.platform>1.7.2</version.junit.platform>
+		<version.mockito-core>3.11.2</version.mockito-core>
 
 		<!-- Maven plugins -->
 		<version.exec-maven-plugin>3.0.0</version.exec-maven-plugin>
@@ -108,12 +108,12 @@
 		<version.maven-antrun-plugin>3.0.0</version.maven-antrun-plugin>
 		<version.maven-clean-plugin>3.1.0</version.maven-clean-plugin>
 		<version.maven-compiler-plugin>3.8.1</version.maven-compiler-plugin>
-		<version.maven-dependency-plugin>3.1.2</version.maven-dependency-plugin>
+		<version.maven-dependency-plugin>3.2.0</version.maven-dependency-plugin>
 		<version.maven-deploy-plugin>2.8.2</version.maven-deploy-plugin>
 		<version.maven-gpg-plugin>3.0.1</version.maven-gpg-plugin>
 		<version.maven-install-plugin>2.5.2</version.maven-install-plugin>
 		<version.maven-jar-plugin>3.2.0</version.maven-jar-plugin>
-		<version.maven-javadoc-plugin>3.2.0</version.maven-javadoc-plugin>
+		<version.maven-javadoc-plugin>3.3.0</version.maven-javadoc-plugin>
 		<version.maven-plugin-plugin>3.6.1</version.maven-plugin-plugin>
 		<version.maven-resources-plugin>3.2.0</version.maven-resources-plugin>
 		<version.maven-source-plugin>3.2.1</version.maven-source-plugin>
