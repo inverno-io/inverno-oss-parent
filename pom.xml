@@ -712,6 +712,8 @@
 								<inherited>false</inherited>
 								<configuration>
 									<target>
+										<property environment="my_env" />
+										<echo>${my_env.INVERNO_OSSRH_USERNAME}</echo>
 										<property name="sourceFile" value="pom.xml" />
 										<xslt in="${sourceFile}" out="${sourceFile}.new"
 											force="true">
