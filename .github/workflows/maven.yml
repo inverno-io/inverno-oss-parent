@@ -40,4 +40,4 @@ jobs:
       run: echo "PROJECT_VERSION=$(mvn org.apache.maven.plugins:maven-help-plugin:evaluate -Dexpression=project.version -B | grep -v '\[')" >> $GITHUB_ENV
     - name: Deploy with Maven
       if: ${{ endsWith(env.PROJECT_VERSION, '-SNAPSHOT') }}
-      run: mvn -B deploy --file pom.xml -s .github/cd-settings.xml -Pio.inverno.release -Dmaven.test.skip=true
+      run: mvn -B deploy --file pom.xml -s .github/cd-settings.xml -Pio.inverno.snapshot -Dmaven.test.skip=true
