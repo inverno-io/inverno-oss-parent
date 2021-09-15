@@ -29,9 +29,6 @@ jobs:
     if: ${{ github.repository_owner == 'inverno-io' && (github.event_name == 'push' || github.event_name == 'schedule') }}
     needs: verify
     runs-on: ubuntu-latest
-    env:
-      INVERNO_OSSRH_USERNAME: ${{ secrets.INVERNO_OSSRH_USERNAME }}
-      INVERNO_OSSRH_PASSWORD: ${{ secrets.INVERNO_OSSRH_PASSWORD }}
     steps:
     - name: Checkout
       uses: actions/checkout@v2
@@ -43,6 +40,13 @@ jobs:
         cache: maven
     - name: Get project version
       run: echo "PROJECT_VERSION=$(mvn org.apache.maven.plugins:maven-help-plugin:evaluate -Dexpression=project.version -B | grep -v '\[')" >> $GITHUB_ENV
+    - name: Test
+      env:
+        INVERNO_OSSRH_USERNAME: ${{ secrets.INVERNO_OSSRH_USERNAME }}
+      run: echo $INVERNO_OSSRH_USERNAME
     - name: Deploy with Maven
+      env:
+        INVERNO_OSSRH_USERNAME: ${{ secrets.INVERNO_OSSRH_USERNAME }}
+        INVERNO_OSSRH_PASSWORD: ${{ secrets.INVERNO_OSSRH_PASSWORD }}
       if: ${{ endsWith(env.PROJECT_VERSION, '-SNAPSHOT') }}
       run: mvn -B deploy --file pom.xml -s .github/cd-settings.xml -Pio.inverno.snapshot -Dmaven.test.skip=true
