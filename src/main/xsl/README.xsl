@@ -12,6 +12,8 @@
 <xsl:template match="/">
 # Inverno OSS Parent
 
+[![CI/C](https://github.com/inverno-io/inverno-oss-parent/actions/workflows/maven.yml/badge.svg)](https://github.com/inverno-io/inverno-oss-parent/actions/workflows/maven.yml)
+
 The Inverno OSS parent POM provides OSS dependencies and plugin management to Inverno components and applications.
 
 <xsl:apply-templates select="/pom:project/pom:dependencyManagement/pom:dependencies"/>
