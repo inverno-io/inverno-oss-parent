@@ -37,7 +37,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>com.fasterxml.jackson.core</td>
         <td>jackson-databind</td>
-        <td>2.13.0</td>
+        <td>2.13.1</td>
     </tr>
     <tr>
         <td>com.google.cloud.tools</td>
@@ -47,32 +47,32 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.lettuce</td>
         <td>lettuce-core</td>
-        <td>6.1.5.RELEASE</td>
+        <td>6.1.6.RELEASE</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-all</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-buffer</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-codec-http2</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-common</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-resolver</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
@@ -82,87 +82,102 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.netty</td>
         <td>netty-transport</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
+    </tr>
+    <tr>
+        <td>io.netty</td>
+        <td>netty-transport-classes-epoll</td>
+        <td>4.1.72.Final</td>
+    </tr>
+    <tr>
+        <td>io.netty</td>
+        <td>netty-transport-classes-kqueue</td>
+        <td>4.1.72.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-kqueue</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-kqueue</td>
-        <td>4.1.69.Final</td>
+        <td>4.1.72.Final</td>
+    </tr>
+    <tr>
+        <td>io.netty.incubator</td>
+        <td>netty-incubator-transport-classes-io_uring</td>
+        <td>0.0.11.Final</td>
     </tr>
     <tr>
         <td>io.netty.incubator</td>
         <td>netty-incubator-transport-native-io_uring</td>
-        <td>0.0.10.Final</td>
+        <td>0.0.11.Final</td>
     </tr>
     <tr>
         <td>io.netty.incubator</td>
         <td>netty-incubator-transport-native-io_uring</td>
-        <td>0.0.10.Final</td>
+        <td>0.0.11.Final</td>
     </tr>
     <tr>
         <td>io.netty.incubator</td>
         <td>netty-incubator-transport-native-io_uring</td>
-        <td>0.0.10.Final</td>
+        <td>0.0.11.Final</td>
     </tr>
     <tr>
         <td>io.projectreactor</td>
         <td>reactor-core</td>
-        <td>3.4.12</td>
+        <td>3.4.14</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-core</td>
-        <td>4.2.1</td>
+        <td>4.2.3</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-db2-client</td>
-        <td>4.2.1</td>
+        <td>4.2.3</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-mssql-client</td>
-        <td>4.2.1</td>
+        <td>4.2.3</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-mysql-client</td>
-        <td>4.2.1</td>
+        <td>4.2.3</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-pg-client</td>
-        <td>4.2.1</td>
+        <td>4.2.3</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-sql-client</td>
-        <td>4.2.1</td>
+        <td>4.2.3</td>
     </tr>
     <tr>
         <td>net.java.dev.javacc</td>
