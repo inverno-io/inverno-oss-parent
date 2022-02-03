@@ -40,6 +40,11 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
         <td>2.13.1</td>
     </tr>
     <tr>
+        <td>com.fasterxml.jackson.datatype</td>
+        <td>jackson-datatype-jsr310</td>
+        <td>2.13.1</td>
+    </tr>
+    <tr>
         <td>com.google.cloud.tools</td>
         <td>jib-core</td>
         <td>0.20.0</td>
