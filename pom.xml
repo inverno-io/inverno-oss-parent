@@ -94,7 +94,7 @@
 
 		<!-- Test -->
 		<version.junit>5.8.2</version.junit>
-		<version.mockito-core>3.12.4</version.mockito-core>
+		<version.mockito-core>4.4.0</version.mockito-core>
 
 		<!-- Maven plugins -->
 		<version.exec-maven-plugin>3.0.0</version.exec-maven-plugin>
@@ -102,7 +102,7 @@
 		<version.maven-assembly-plugin>3.3.0</version.maven-assembly-plugin>
 		<version.maven-antrun-plugin>3.0.0</version.maven-antrun-plugin>
 		<version.maven-clean-plugin>3.1.0</version.maven-clean-plugin>
-		<version.maven-compiler-plugin>3.8.1</version.maven-compiler-plugin>
+		<version.maven-compiler-plugin>3.10.1</version.maven-compiler-plugin>
 		<version.maven-dependency-plugin>3.2.0</version.maven-dependency-plugin>
 		<version.maven-deploy-plugin>2.8.2</version.maven-deploy-plugin>
 		<version.maven-gpg-plugin>3.0.1</version.maven-gpg-plugin>
@@ -112,7 +112,7 @@
 		<version.maven-plugin-plugin>3.6.4</version.maven-plugin-plugin>
 		<version.maven-resources-plugin>3.2.0</version.maven-resources-plugin>
 		<version.maven-source-plugin>3.2.1</version.maven-source-plugin>
-		<version.maven-surefire-plugin>2.22.2</version.maven-surefire-plugin>
+		<version.maven-surefire-plugin>3.0.0-M5</version.maven-surefire-plugin>
 		<version.nexus-staging-maven-plugin>1.6.8</version.nexus-staging-maven-plugin>
 	</properties>
 
@@ -232,6 +232,12 @@
 			<dependency>
 				<groupId>org.apache.maven</groupId>
 				<artifactId>maven-core</artifactId>
+				<version>${version.maven}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven</groupId>
+				<artifactId>maven-model</artifactId>
 				<version>${version.maven}</version>
 				<scope>provided</scope>
 			</dependency>

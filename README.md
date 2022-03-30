@@ -246,6 +246,11 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     </tr>
     <tr>
         <td>org.apache.maven</td>
+        <td>maven-model</td>
+        <td>${maven.version}</td>
+    </tr>
+    <tr>
+        <td>org.apache.maven</td>
         <td>maven-plugin-api</td>
         <td>${maven.version}</td>
     </tr>
@@ -267,7 +272,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.mockito</td>
         <td>mockito-core</td>
-        <td>3.12.4</td>
+        <td>4.4.0</td>
     </tr>
     <tr>
         <td>org.ow2.asm</td>
@@ -307,7 +312,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.apache.maven.plugins</td>
         <td>maven-compiler-plugin</td>
-        <td>3.8.1</td>
+        <td>3.10.1</td>
     </tr>
     <tr>
         <td>org.apache.maven.plugins</td>
@@ -357,7 +362,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.apache.maven.plugins</td>
         <td>maven-surefire-plugin</td>
-        <td>2.22.2</td>
+        <td>3.0.0-M5</td>
     </tr>
     <tr>
         <td>org.codehaus.mojo</td>
