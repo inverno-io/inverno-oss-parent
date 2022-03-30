@@ -73,6 +73,7 @@
 	<properties>
 		<version.asm>9.2</version.asm>
 		<version.brotli>1.6.0</version.brotli>
+		<version.commons.codec>1.15</version.commons.codec>
 		<version.commons.compress>1.21</version.commons.compress>
 		<version.commons.lang>3.12.0</version.commons.lang>
 		<version.commons.text>1.9</version.commons.text>
@@ -144,6 +145,11 @@
 				<version>${version.brotli}</version>
 			</dependency>
 
+			<dependency>
+				<groupId>commons-codec</groupId>
+				<artifactId>commons-codec</artifactId>
+				<version>${version.commons.codec}</version>
+			</dependency>
 			<dependency>
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-compress</artifactId>

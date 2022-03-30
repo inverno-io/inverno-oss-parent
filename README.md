@@ -50,6 +50,11 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
         <td>0.20.0</td>
     </tr>
     <tr>
+        <td>commons-codec</td>
+        <td>commons-codec</td>
+        <td>1.15</td>
+    </tr>
+    <tr>
         <td>io.lettuce</td>
         <td>lettuce-core</td>
         <td>6.1.6.RELEASE</td>
