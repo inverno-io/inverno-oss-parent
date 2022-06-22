@@ -265,6 +265,41 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
         <td>3.1.0</td>
     </tr>
     <tr>
+        <td>org.bouncycastle</td>
+        <td>bcjmail-jdk18on</td>
+        <td>1.71</td>
+    </tr>
+    <tr>
+        <td>org.bouncycastle</td>
+        <td>bcmail-jdk18on</td>
+        <td>1.71</td>
+    </tr>
+    <tr>
+        <td>org.bouncycastle</td>
+        <td>bcpg-jdk18on</td>
+        <td>1.71</td>
+    </tr>
+    <tr>
+        <td>org.bouncycastle</td>
+        <td>bcpkix-jdk18on</td>
+        <td>1.71</td>
+    </tr>
+    <tr>
+        <td>org.bouncycastle</td>
+        <td>bcprov-jdk18on</td>
+        <td>1.71</td>
+    </tr>
+    <tr>
+        <td>org.bouncycastle</td>
+        <td>bctls-jdk18on</td>
+        <td>1.71</td>
+    </tr>
+    <tr>
+        <td>org.bouncycastle</td>
+        <td>bcutil-jdk18on</td>
+        <td>1.71</td>
+    </tr>
+    <tr>
         <td>org.junit</td>
         <td>junit-bom</td>
         <td>5.8.2</td>
