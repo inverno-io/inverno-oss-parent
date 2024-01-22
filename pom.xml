@@ -478,7 +478,12 @@
 				<artifactId>vertx-pg-client</artifactId>
 				<version>${version.vertx}</version>
 			</dependency>
-			
+			<dependency>
+				<groupId>io.vertx</groupId>
+				<artifactId>vertx-io_uring-incubator</artifactId>
+				<version>${version.vertx}</version>
+			</dependency>
+
 			<!-- Test -->
 			<dependency>
 				<groupId>org.awaitility</groupId>

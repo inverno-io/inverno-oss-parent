@@ -196,6 +196,11 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     </tr>
     <tr>
         <td>io.vertx</td>
+        <td>vertx-io_uring-incubator</td>
+        <td>4.5.1</td>
+    </tr>
+    <tr>
+        <td>io.vertx</td>
         <td>vertx-mssql-client</td>
         <td>4.5.1</td>
     </tr>
