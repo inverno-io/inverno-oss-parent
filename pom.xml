@@ -71,49 +71,52 @@
 	</distributionManagement>
 
 	<properties>
-		<version.asm>9.3</version.asm>
-		<version.bouncycastle>1.71</version.bouncycastle>
-		<version.brotli>1.7.1</version.brotli>
-		<version.commons.codec>1.15</version.commons.codec>
-		<version.commons.compress>1.21</version.commons.compress>
-		<version.commons.lang>3.12.0</version.commons.lang>
-		<version.commons.text>1.9</version.commons.text>
-		<version.jackson>2.13.3</version.jackson>
-		<version.javacc>7.0.12</version.javacc>
-		<version.jib>0.21.0</version.jib>
-		<version.lettuce>6.2.0.RELEASE</version.lettuce>
-		<version.log4j>2.17.2</version.log4j>
-		<version.maven>${maven.version}</version.maven>
-		<version.maven.plugin-tools>3.6.4</version.maven.plugin-tools>
-		<version.maven.shared.common-artifact-filters>3.3.1</version.maven.shared.common-artifact-filters>
-		<version.netty>4.1.79.Final</version.netty>
-		<version.netty.io_uring>0.0.14.Final</version.netty.io_uring>
-		<version.netty.boringssl>2.0.54.Final</version.netty.boringssl>
-		<version.projectreactor>3.4.21</version.projectreactor>
-		<version.swagger>4.11.1</version.swagger>
-		<version.vertx>4.3.2</version.vertx>
+		<version.asm>9.6</version.asm>
+		<version.bouncycastle>1.77</version.bouncycastle>
+		<version.brotli>1.12.0</version.brotli>
+		<version.commons.codec>1.16.0</version.commons.codec>
+		<version.commons.compress>1.25.0</version.commons.compress>
+		<version.commons.lang>3.14.0</version.commons.lang>
+		<version.commons.text>1.11.0</version.commons.text>
+		<version.jackson>2.16.1</version.jackson>
+		<version.javacc>7.0.13</version.javacc>
+		<version.jib>0.25.0</version.jib>
+		<version.lettuce>6.3.1.RELEASE</version.lettuce>
+		<version.log4j>2.22.1</version.log4j>
+		<!--<version.maven>${maven.version}</version.maven>-->
+		<version.maven>3.6.0</version.maven>
+		<version.maven.plugin-tools>3.11.0</version.maven.plugin-tools>
+		<version.maven.shared.common-artifact-filters>3.3.2</version.maven.shared.common-artifact-filters>
+		<version.netty>4.1.105.Final</version.netty>
+		<version.netty.io_uring>0.0.24.Final</version.netty.io_uring>
+		<version.netty.boringssl>2.0.62.Final</version.netty.boringssl>
+		<version.projectreactor>3.6.2</version.projectreactor>
+		<version.swagger>5.10.3</version.swagger>
+		<version.tukaani>1.9</version.tukaani>
+		<version.vertx>4.5.1</version.vertx>
 
 		<!-- Test -->
-		<version.junit>5.9.0</version.junit>
-		<version.mockito-core>4.6.1</version.mockito-core>
+		<version.awaitility>4.2.0</version.awaitility>
+		<version.junit>5.10.1</version.junit>
+		<version.mockito-core>5.9.0</version.mockito-core>
 
 		<!-- Maven plugins -->
-		<version.exec-maven-plugin>3.1.0</version.exec-maven-plugin>
+		<version.exec-maven-plugin>3.1.1</version.exec-maven-plugin>
 		<version.javacc-maven-plugin>3.0.3</version.javacc-maven-plugin>
-		<version.maven-assembly-plugin>3.4.2</version.maven-assembly-plugin>
+		<version.maven-assembly-plugin>3.6.0</version.maven-assembly-plugin>
 		<version.maven-antrun-plugin>3.1.0</version.maven-antrun-plugin>
-		<version.maven-clean-plugin>3.2.0</version.maven-clean-plugin>
-		<version.maven-compiler-plugin>3.10.1</version.maven-compiler-plugin>
-		<version.maven-dependency-plugin>3.3.0</version.maven-dependency-plugin>
-		<version.maven-deploy-plugin>3.0.0</version.maven-deploy-plugin>
-		<version.maven-gpg-plugin>3.0.1</version.maven-gpg-plugin>
-		<version.maven-install-plugin>3.0.1</version.maven-install-plugin>
-		<version.maven-jar-plugin>3.2.2</version.maven-jar-plugin>
-		<version.maven-javadoc-plugin>3.4.0</version.maven-javadoc-plugin>
-		<version.maven-plugin-plugin>3.6.4</version.maven-plugin-plugin>
-		<version.maven-resources-plugin>3.3.0</version.maven-resources-plugin>
-		<version.maven-source-plugin>3.2.1</version.maven-source-plugin>
-		<version.maven-surefire-plugin>3.0.0-M7</version.maven-surefire-plugin>
+		<version.maven-clean-plugin>3.3.2</version.maven-clean-plugin>
+		<version.maven-compiler-plugin>3.12.1</version.maven-compiler-plugin>
+		<version.maven-dependency-plugin>3.6.1</version.maven-dependency-plugin>
+		<version.maven-deploy-plugin>3.1.1</version.maven-deploy-plugin>
+		<version.maven-gpg-plugin>3.1.0</version.maven-gpg-plugin>
+		<version.maven-install-plugin>3.1.1</version.maven-install-plugin>
+		<version.maven-jar-plugin>3.3.0</version.maven-jar-plugin>
+		<version.maven-javadoc-plugin>3.6.3</version.maven-javadoc-plugin>
+		<version.maven-plugin-plugin>3.11.0</version.maven-plugin-plugin>
+		<version.maven-resources-plugin>3.3.1</version.maven-resources-plugin>
+		<version.maven-source-plugin>3.3.0</version.maven-source-plugin>
+		<version.maven-surefire-plugin>3.2.5</version.maven-surefire-plugin>
 		<version.nexus-staging-maven-plugin>1.6.13</version.nexus-staging-maven-plugin>
 	</properties>
 
@@ -124,7 +127,7 @@
 				<artifactId>asm</artifactId>
 				<version>${version.asm}</version>
 			</dependency>
-
+			
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
 				<artifactId>bcjmail-jdk18on</artifactId>
@@ -193,6 +196,11 @@
 				<version>${version.commons.compress}</version>
 			</dependency>
 			<dependency>
+				<groupId>org.tukaani</groupId>
+				<artifactId>xz</artifactId>
+				<version>${version.tukaani}</version>
+			</dependency>
+			<dependency>
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-lang3</artifactId>
 				<version>${version.commons.lang}</version>
@@ -247,6 +255,11 @@
 				<artifactId>log4j-core</artifactId>
 				<version>${version.log4j}</version>
 				<scope>runtime</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-iostreams</artifactId>
+				<version>${version.log4j}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.logging.log4j</groupId>
@@ -467,6 +480,13 @@
 			</dependency>
 			
 			<!-- Test -->
+			<dependency>
+				<groupId>org.awaitility</groupId>
+				<artifactId>awaitility</artifactId>
+				<version>${version.awaitility}</version>
+				<scope>test</scope>
+			</dependency>
+			
 			<dependency>
 				<groupId>org.junit</groupId>
 				<artifactId>junit-bom</artifactId>
