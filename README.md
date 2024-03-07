@@ -55,6 +55,11 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
         <td>0.25.0</td>
     </tr>
     <tr>
+        <td>com.ongres.scram</td>
+        <td>client</td>
+        <td>2.1</td>
+    </tr>
+    <tr>
         <td>commons-codec</td>
         <td>commons-codec</td>
         <td>1.16.1</td>

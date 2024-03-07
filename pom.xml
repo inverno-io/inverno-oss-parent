@@ -91,6 +91,7 @@
 		<version.netty.io_uring>0.0.25.Final</version.netty.io_uring>
 		<version.netty.boringssl>2.0.63.Final</version.netty.boringssl>
 		<version.projectreactor>3.6.2</version.projectreactor>
+		<version.scram>2.1</version.scram>
 		<version.swagger>5.10.3</version.swagger>
 		<version.tukaani>1.9</version.tukaani>
 		<version.vertx>4.5.4</version.vertx>
@@ -183,6 +184,12 @@
 				<groupId>com.aayushatharva.brotli4j</groupId>
 				<artifactId>native-windows-x86_64</artifactId>
 				<version>${version.brotli}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>com.ongres.scram</groupId>
+				<artifactId>client</artifactId>
+				<version>${version.scram}</version>
 			</dependency>
 
 			<dependency>
