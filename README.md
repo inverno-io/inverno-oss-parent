@@ -37,22 +37,22 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>com.fasterxml.jackson.core</td>
         <td>jackson-core</td>
-        <td>2.16.1</td>
+        <td>2.17.0</td>
     </tr>
     <tr>
         <td>com.fasterxml.jackson.core</td>
         <td>jackson-databind</td>
-        <td>2.16.1</td>
+        <td>2.17.0</td>
     </tr>
     <tr>
         <td>com.fasterxml.jackson.datatype</td>
         <td>jackson-datatype-jsr310</td>
-        <td>2.16.1</td>
+        <td>2.17.0</td>
     </tr>
     <tr>
         <td>com.google.cloud.tools</td>
         <td>jib-core</td>
-        <td>0.25.0</td>
+        <td>0.26.0</td>
     </tr>
     <tr>
         <td>com.ongres.scram</td>
@@ -67,7 +67,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.lettuce</td>
         <td>lettuce-core</td>
-        <td>6.3.1.RELEASE</td>
+        <td>6.3.2.RELEASE</td>
     </tr>
     <tr>
         <td>io.netty</td>
@@ -187,42 +187,42 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.projectreactor</td>
         <td>reactor-core</td>
-        <td>3.6.2</td>
+        <td>3.6.4</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-core</td>
-        <td>4.5.4</td>
+        <td>4.5.5</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-db2-client</td>
-        <td>4.5.4</td>
+        <td>4.5.5</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-io_uring-incubator</td>
-        <td>4.5.4</td>
+        <td>4.5.5</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-mssql-client</td>
-        <td>4.5.4</td>
+        <td>4.5.5</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-mysql-client</td>
-        <td>4.5.4</td>
+        <td>4.5.5</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-pg-client</td>
-        <td>4.5.4</td>
+        <td>4.5.5</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-sql-client</td>
-        <td>4.5.4</td>
+        <td>4.5.5</td>
     </tr>
     <tr>
         <td>net.java.dev.javacc</td>
@@ -232,7 +232,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.apache.commons</td>
         <td>commons-compress</td>
-        <td>1.26.0</td>
+        <td>1.26.1</td>
     </tr>
     <tr>
         <td>org.apache.commons</td>
@@ -247,27 +247,27 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.apache.logging.log4j</td>
         <td>log4j-api</td>
-        <td>2.23.0</td>
+        <td>2.23.1</td>
     </tr>
     <tr>
         <td>org.apache.logging.log4j</td>
         <td>log4j-core</td>
-        <td>2.23.0</td>
+        <td>2.23.1</td>
     </tr>
     <tr>
         <td>org.apache.logging.log4j</td>
         <td>log4j-iostreams</td>
-        <td>2.23.0</td>
+        <td>2.23.1</td>
     </tr>
     <tr>
         <td>org.apache.logging.log4j</td>
         <td>log4j-jul</td>
-        <td>2.23.0</td>
+        <td>2.23.1</td>
     </tr>
     <tr>
         <td>org.apache.logging.log4j</td>
         <td>log4j-layout-template-json</td>
-        <td>2.23.0</td>
+        <td>2.23.1</td>
     </tr>
     <tr>
         <td>org.apache.maven</td>
@@ -307,7 +307,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.awaitility</td>
         <td>awaitility</td>
-        <td>4.2.0</td>
+        <td>4.2.1</td>
     </tr>
     <tr>
         <td>org.bouncycastle</td>
@@ -352,7 +352,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.mockito</td>
         <td>mockito-core</td>
-        <td>5.10.0</td>
+        <td>5.11.0</td>
     </tr>
     <tr>
         <td>org.ow2.asm</td>
@@ -367,7 +367,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.webjars</td>
         <td>swagger-ui</td>
-        <td>5.10.3</td>
+        <td>5.11.10</td>
     </tr>
 </table>
 
@@ -387,7 +387,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.apache.maven.plugins</td>
         <td>maven-assembly-plugin</td>
-        <td>3.6.0</td>
+        <td>3.7.0</td>
     </tr>
     <tr>
         <td>org.apache.maven.plugins</td>
