@@ -17,7 +17,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>ch.qos.logback</td>
         <td>logback-classic</td>
-        <td>1.5.4</td>
+        <td>1.5.6</td>
     </tr>
     <tr>
         <td>com.aayushatharva.brotli4j</td>
@@ -322,7 +322,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.apache.commons</td>
         <td>commons-text</td>
-        <td>1.11.0</td>
+        <td>1.12.0</td>
     </tr>
     <tr>
         <td>org.apache.logging.log4j</td>
@@ -397,37 +397,37 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.bouncycastle</td>
         <td>bcjmail-jdk18on</td>
-        <td>1.78</td>
+        <td>1.78.1</td>
     </tr>
     <tr>
         <td>org.bouncycastle</td>
         <td>bcmail-jdk18on</td>
-        <td>1.78</td>
+        <td>1.78.1</td>
     </tr>
     <tr>
         <td>org.bouncycastle</td>
         <td>bcpg-jdk18on</td>
-        <td>1.78</td>
+        <td>1.78.1</td>
     </tr>
     <tr>
         <td>org.bouncycastle</td>
         <td>bcpkix-jdk18on</td>
-        <td>1.78</td>
+        <td>1.78.1</td>
     </tr>
     <tr>
         <td>org.bouncycastle</td>
         <td>bcprov-jdk18on</td>
-        <td>1.78</td>
+        <td>1.78.1</td>
     </tr>
     <tr>
         <td>org.bouncycastle</td>
         <td>bctls-jdk18on</td>
-        <td>1.78</td>
+        <td>1.78.1</td>
     </tr>
     <tr>
         <td>org.bouncycastle</td>
         <td>bcutil-jdk18on</td>
-        <td>1.78</td>
+        <td>1.78.1</td>
     </tr>
     <tr>
         <td>org.junit</td>
@@ -452,7 +452,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.webjars</td>
         <td>swagger-ui</td>
-        <td>5.13.0</td>
+        <td>5.17.2</td>
     </tr>
 </table>
 
@@ -507,7 +507,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.apache.maven.plugins</td>
         <td>maven-jar-plugin</td>
-        <td>3.3.0</td>
+        <td>3.4.1</td>
     </tr>
     <tr>
         <td>org.apache.maven.plugins</td>
@@ -527,7 +527,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.apache.maven.plugins</td>
         <td>maven-shade-plugin</td>
-        <td>3.5.2</td>
+        <td>3.5.3</td>
     </tr>
     <tr>
         <td>org.apache.maven.plugins</td>
