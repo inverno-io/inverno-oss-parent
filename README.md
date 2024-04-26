@@ -42,17 +42,22 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>com.fasterxml.jackson.core</td>
         <td>jackson-core</td>
-        <td>2.17.0</td>
+        <td>2.16.2</td>
     </tr>
     <tr>
         <td>com.fasterxml.jackson.core</td>
         <td>jackson-databind</td>
-        <td>2.17.0</td>
+        <td>2.16.2</td>
     </tr>
     <tr>
         <td>com.fasterxml.jackson.datatype</td>
         <td>jackson-datatype-jsr310</td>
-        <td>2.17.0</td>
+        <td>2.16.2</td>
+    </tr>
+    <tr>
+        <td>com.fasterxml.jackson.module</td>
+        <td>jackson-module-afterburner</td>
+        <td>2.16.2</td>
     </tr>
     <tr>
         <td>com.google.cloud.tools</td>
