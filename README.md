@@ -142,52 +142,52 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.netty</td>
         <td>netty-all</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-buffer</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-codec</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-codec-http</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-codec-http2</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-common</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-handler</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-handler-proxy</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-resolver</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-resolver-dns</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
@@ -197,47 +197,47 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.netty</td>
         <td>netty-transport</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-classes-epoll</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-classes-kqueue</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-epoll</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-kqueue</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty</td>
         <td>netty-transport-native-kqueue</td>
-        <td>4.1.108.Final</td>
+        <td>4.1.110.Final</td>
     </tr>
     <tr>
         <td>io.netty.incubator</td>
@@ -262,42 +262,42 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>io.projectreactor</td>
         <td>reactor-core</td>
-        <td>3.6.5</td>
+        <td>3.6.6</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-core</td>
-        <td>4.5.7</td>
+        <td>4.5.8</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-db2-client</td>
-        <td>4.5.7</td>
+        <td>4.5.8</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-io_uring-incubator</td>
-        <td>4.5.7</td>
+        <td>4.5.8</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-mssql-client</td>
-        <td>4.5.7</td>
+        <td>4.5.8</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-mysql-client</td>
-        <td>4.5.7</td>
+        <td>4.5.8</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-pg-client</td>
-        <td>4.5.7</td>
+        <td>4.5.8</td>
     </tr>
     <tr>
         <td>io.vertx</td>
         <td>vertx-sql-client</td>
-        <td>4.5.7</td>
+        <td>4.5.8</td>
     </tr>
     <tr>
         <td>kr.motd.maven</td>
@@ -312,7 +312,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.apache.commons</td>
         <td>commons-compress</td>
-        <td>1.26.1</td>
+        <td>1.26.2</td>
     </tr>
     <tr>
         <td>org.apache.commons</td>
@@ -437,7 +437,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.mockito</td>
         <td>mockito-core</td>
-        <td>5.11.0</td>
+        <td>5.12.0</td>
     </tr>
     <tr>
         <td>org.ow2.asm</td>
@@ -452,7 +452,7 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     <tr>
         <td>org.webjars</td>
         <td>swagger-ui</td>
-        <td>5.17.2</td>
+        <td>5.17.11</td>
     </tr>
 </table>
 
