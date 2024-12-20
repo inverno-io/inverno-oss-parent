@@ -51,6 +51,11 @@ The Inverno OSS parent POM provides OSS dependencies and plugin management to In
     </tr>
     <tr>
         <td>com.fasterxml.jackson.datatype</td>
+        <td>jackson-datatype-jdk8</td>
+        <td>2.16.2</td>
+    </tr>
+    <tr>
+        <td>com.fasterxml.jackson.datatype</td>
         <td>jackson-datatype-jsr310</td>
         <td>2.16.2</td>
     </tr>
