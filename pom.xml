@@ -72,9 +72,9 @@
 
 	<properties>
 		<version.asm>9.7.1</version.asm>
-		<version.bouncycastle>1.79</version.bouncycastle>
+		<version.bouncycastle>1.80</version.bouncycastle>
 		<version.brotli>1.18.0</version.brotli>
-		<version.commons.codec>1.17.1</version.commons.codec>
+		<version.commons.codec>1.17.2</version.commons.codec>
 		<version.commons.compress>1.27.1</version.commons.compress>
 		<version.commons.io>2.18.0</version.commons.io>
 		<version.commons.lang>3.17.0</version.commons.lang>
@@ -82,19 +82,19 @@
 		<version.jackson>2.18.2</version.jackson>
 		<version.javacc>7.0.13</version.javacc>
 		<version.jib>0.27.2</version.jib>
-		<version.lettuce>6.5.1.RELEASE</version.lettuce>
+		<version.lettuce>6.5.2.RELEASE</version.lettuce>
 		<version.log4j>2.24.3</version.log4j>
-		<version.logback>1.5.14</version.logback>
+		<version.logback>1.5.16</version.logback>
 		<!--<version.maven>${maven.version}</version.maven>-->
 		<version.maven>3.6.0</version.maven>
 		<version.maven.plugin-tools>3.15.1</version.maven.plugin-tools>
 		<version.maven.shared.common-artifact-filters>3.4.0</version.maven.shared.common-artifact-filters>
-		<version.netty>4.1.116.Final</version.netty>
-		<version.netty.io_uring>0.0.25.Final</version.netty.io_uring>
+		<version.netty>4.1.117.Final</version.netty>
+		<version.netty.io_uring>0.0.26.Final</version.netty.io_uring>
 		<version.netty.boringssl>2.0.69.Final</version.netty.boringssl>
 		<version.os-maven-plugin>1.7.1</version.os-maven-plugin>
-		<version.projectreactor>3.7.1</version.projectreactor>
-		<version.protobuf>4.29.2</version.protobuf>
+		<version.projectreactor>3.7.2</version.projectreactor>
+		<version.protobuf>4.29.3</version.protobuf>
 		<version.scram>2.1</version.scram>
 		<version.swagger>5.18.2</version.swagger>
 		<version.tukaani>1.10</version.tukaani>
@@ -103,7 +103,7 @@
 		<!-- Test -->
 		<version.awaitility>4.2.2</version.awaitility>
 		<version.junit>5.11.4</version.junit>
-		<version.mockito-core>5.14.2</version.mockito-core>
+		<version.mockito-core>5.15.2</version.mockito-core>
 
 		<!-- Maven plugins -->
 		<version.exec-maven-plugin>3.5.0</version.exec-maven-plugin>
