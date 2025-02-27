@@ -1,7 +1,9 @@
 
 # Inverno OSS Parent
 
+[![Maven Central](https://img.shields.io/maven-central/v/io.inverno/inverno-oss-parent)](https://central.sonatype.com/search?namespace=io.inverno&name=inverno-oss-parent)
 [![CI/C](https://github.com/inverno-io/inverno-oss-parent/actions/workflows/maven.yml/badge.svg)](https://github.com/inverno-io/inverno-oss-parent/actions/workflows/maven.yml)
+[![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
 
 The Inverno OSS parent POM provides OSS dependencies and plugin management to Inverno components and applications.
 
